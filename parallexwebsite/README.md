@@ -2,6 +2,10 @@
 
 A modern and responsive Parallax Scrolling Website built using pure HTML and CSS. The website uses layered background images and smooth scrolling to create a dynamic visual experience — all without any JavaScript.
 
+🚀 Live Demo 
+
+https://Laxmi-Verma-21.github.io/mini-web-projects/parallexwebsite/
+
 🚀 Features
 
 🎨 Modern UI with smooth parallax scrolling
@@ -27,12 +31,6 @@ parallexwebsite/
 │── style.css
 └── images/
     
-
-🚀 Live Demo (GitHub Pages)
-
-After deployment, replace this with your URL:
-
-https://Laxmi-Verma-21.github.io/mini-web-projects/parallexwebsite/
 
 🤝 Contributing
 
