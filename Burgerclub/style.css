@@ -1,0 +1,169 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #12372A;
+    font-family: "Montserrat", sans-serif;
+    color: #FBFADA;
+    overflow-x: hidden;
+}
+
+.navigation{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+}
+
+.container{
+      max-width: 1200px;
+      margin: 0 auto;
+}
+/* ============================= */
+/* NAVBAR */
+/* ============================= */
+.navbar {
+    width: 100%;
+    padding: 25px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-family: "Abril Fatface", serif;
+    font-size: 36px;
+    letter-spacing: 4px;
+    color: #F6F0D9;
+}
+
+.menu {
+    display: flex;
+    gap: 40px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #FBFADA;
+    font-style: italic;
+    font-size: 16px;
+    opacity: 0.9;
+    transition: .3s;
+}
+
+.menu a:hover {
+    opacity: 1;
+}
+
+
+/* ============================= */
+/* HERO SECTION */
+/* ============================= */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 80px;
+    margin-top: 20px;
+}
+
+/* LEFT */
+.hero-left {
+    display: flex;
+    flex-direction: column;
+    max-width: 45%;
+}
+
+.tagline {
+    font-size: 18px;
+    letter-spacing: 8px;
+    opacity: 0.8;
+    margin-bottom: 10px;
+}
+
+.title {
+    font-family: "Abril Fatface", serif;
+    font-size: 82px;
+    color: #FBFADA;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    font-size: 17px;
+    opacity: 0.9;
+    margin-bottom: 40px;
+    letter-spacing: 1px;
+}
+
+
+/* Thumbnail Images */
+.thumbs {
+    display: flex;
+    gap: 20px;
+}
+
+.thumbs img {
+    width: 85px;
+    height: 65px;
+    border-radius: 12px;
+    object-fit: cover;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.thumbs img:hover {
+    transform: scale(1.08);
+}
+
+
+/* ============================= */
+/* RIGHT (BURGER IMAGE) */
+/* ============================= */
+.hero-right {
+    position: relative;
+}
+
+.burger {
+    width: 480px;
+    z-index: 2;
+}
+
+/* SHADOW */
+.burger-shadow {
+    position: absolute;
+    bottom: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 420px;
+    height: 55px;
+    background: rgba(0, 0, 0, 0.45);
+    border-radius: 50%;
+    filter: blur(25px);
+}
+
+
+/* ============================= */
+/* RESPONSIVE */
+/* ============================= */
+@media (max-width: 900px) {
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-left {
+        max-width: 100%;
+        align-items: center;
+    }
+
+    .burger {
+        width: 380px;
+    }
+
+    .burger-shadow {
+        width: 300px;
+    }
+}

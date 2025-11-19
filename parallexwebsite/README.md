@@ -24,12 +24,6 @@ https://Laxmi-Verma-21.github.io/mini-web-projects/parallexwebsite/
 HTML5
 
 CSS3 (positioning, background-attachment, flexbox)
-
-📁 Folder Structure
-parallexwebsite/
-│── index.html
-│── style.css
-└── images/
     
 
 🤝 Contributing
